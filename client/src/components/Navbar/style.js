@@ -20,13 +20,14 @@ export default makeStyles((theme) => ({
   },
   toolbar: {
     display: "flex",
-    justifyContent: "flex-end",
+    justifyContent: "space-around",
     width: "400px",
   },
   profile: {
     display: "flex",
+    flexDirection: "row",
     justifyContent: "space-between",
-    width: "400px",
+    width: "40px",
   },
   userName: {
     display: "flex",
